@@ -1,9 +1,9 @@
-import "./new.scss";
+import "./profile.scss";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import { useState } from "react";
 
-const New = ({ inputs, title }) => {
+const Profile = ({ inputs, title }) => {
   const [file,] = useState("");
 
   return (
@@ -76,4 +76,4 @@ const New = ({ inputs, title }) => {
   );
 };
 
-export default New;
+export default Profile;

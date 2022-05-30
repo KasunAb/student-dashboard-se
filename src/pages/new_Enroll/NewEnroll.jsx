@@ -1,9 +1,9 @@
-import "./list.scss"
+import "./new_enroll.scss"
 import Sidebar from "../../components/sidebar/Sidebar"
 import Navbar from "../../components/navbar/Navbar"
 import Datatable from "../../components/datatable/Datatable"
 
-const List = () => {
+const NewEnroll = () => {
   return (
     <div className="list">
       <Sidebar/>
@@ -15,4 +15,4 @@ const List = () => {
   )
 }
 
-export default List
+export default NewEnroll
